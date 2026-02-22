@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LEGEND SOUTH VIP</title>
+
+<!-- META PIXEL CODE -->
+<script>
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1225101452813557');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1225101452813557&ev=PageView&noscript=1"/>
+</noscript>
+<!-- END META PIXEL CODE -->
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#111;
+  position:relative;
+  overflow:hidden;
+}
+body::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:160px;
+  background:#faff00;
+  z-index:0;
+}
+.phone-frame{
+  width:320px;
+  height:650px;
+  background:#000;
+  border-radius:45px;
+  padding:12px;
+  box-shadow:0 0 50px rgba(0,0,0,.9);
+  position:relative;
+  z-index:2;
+}
+.phone-frame::before{
+  content:'';
+  position:absolute;
+  top:8px;
+  left:50%;
+  transform:translateX(-50%);
+  width:140px;
+  height:25px;
+  background:#000;
+  border-radius:20px;
+  z-index:20;
+}
+.screen{
+  width:100%;
+  height:100%;
+  border-radius:30px;
+  overflow:hidden;
+  background:url('https://github.com/mrxsetup/anuragreddy-south/blob/main/telgramback.jpg?raw=true') no-repeat center center;
+  background-size:cover;
+  position:relative;
+  color:#fff;
+}
+.screen::after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.55);
+  top:0;
+  left:0;
+  z-index:1;
+}
+.status-bar{
+  position:absolute;
+  top:6px;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  padding:0 18px;
+  font-size:13px;
+  font-weight:bold;
+  z-index:30;
+}
+.status-icons{
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+.battery{
+  width:22px;
+  height:10px;
+  border:2px solid #fff;
+  border-radius:3px;
+  position:relative;
+}
+.battery::after{
+  content:"";
+  position:absolute;
+  right:-4px;
+  top:2px;
+  width:3px;
+  height:6px;
+  background:#fff;
+}
+.battery-level{
+  height:100%;
+  background:#00ff00;
+  width:80%;
+  transition:.4s;
+}
+.card{
+  position:relative;
+  z-index:2;
+  width:90%;
+  text-align:center;
+  margin:95px auto 0 auto;
+}
+.avatar{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  border:3px solid gold;
+  object-fit:cover;
+  box-shadow:0 0 15px gold;
+}
+.name{
+  margin:15px 0;
+  font-size:22px;
+  font-weight:900;
+  color:#ffd700;
+  letter-spacing:1px;
+  text-shadow:0 0 15px #000;
+}
+.league-box{
+  position:relative;
+  width:75px;
+  height:75px;
+  margin:15px auto;
+  border-radius:20px;
+  background:linear-gradient(135deg,#00eaff,#ffd700,#ff3cac);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:visible;
+  box-shadow:0 0 25px #00eaff,0 0 35px #ffd700;
+}
+.league-box img{
+  position:absolute;
+  width:95px;
+  height:95px;
+  object-fit:cover;
+  border-radius:20px;
+  transform:translateY(-8px);
+  transition:.4s ease;
+}
+.timer{
+  font-size:24px;
+  font-weight:700;
+  color:#00eaff;
+  margin:8px 0;
+}
+.timer.alert{
+  color:red;
+  animation:shake .4s infinite;
+}
+@keyframes shake{
+  0%{transform:translateX(0)}
+  25%{transform:translateX(-3px)}
+  50%{transform:translateX(3px)}
+  75%{transform:translateX(-3px)}
+  100%{transform:translateX(0)}
+}
+.cta{
+  display:inline-block;
+  padding:10px 25px;
+  border-radius:30px;
+  background:#0b66ff;
+  color:gold;
+  font-weight:800;
+  text-decoration:none;
+  margin-top:12px;
+  box-shadow:0 0 15px #ffd700;
+}
+</style>
+</head>
+
+<body>
+
+<div class="phone-frame">
+  <div class="screen">
+
+    <div class="status-bar">
+      <div id="time"></div>
+      <div class="status-icons">
+        📶 5G
+        <div class="battery">
+          <div id="batteryLevel" class="battery-level"></div>
+        </div>
+        <span id="batteryText">80%</span>
+      </div>
+    </div>
+
+    <div class="card">
+
+      <img class="avatar"
+      src="https://github.com/mrxsetup/anuragreddy-south/blob/main/anuragreddy.jpg?raw=true">
+
+      <div class="name">LEGEND</div>
+
+      <div class="league-box">
+        <img id="logo"
+        src="https://github.com/mrxsetup/anuragreddy-south/blob/main/anuragreddy.jpg?raw=true">
+      </div>
+
+      <div id="timer" class="timer">1:00</div>
+
+      <p><b>🏆 IPL 2025 – 74/77 PASSED</b><br>
+      <b>🏆 BBL 2026 – 64/67 PASSED</b></p>
+
+      <a class="cta"
+      href="https://t.me/+fIBBiShcgr1jMGZl"
+      target="_blank">
+      JOIN TELEGRAM
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+function updateTime(){
+  const now=new Date();
+  let h=now.getHours();
+  let m=now.getMinutes();
+  m=m<10?"0"+m:m;
+  document.getElementById("time").innerText=h+":"+m;
+}
+setInterval(updateTime,1000);
+updateTime();
+
+let battery=80;
+setInterval(()=>{
+  battery=battery>20?battery-1:80;
+  document.getElementById("batteryLevel").style.width=battery+"%";
+  document.getElementById("batteryText").innerText=battery+"%";
+},5000);
+
+let totalSeconds=60;
+const timerElement=document.getElementById("timer");
+const countdown=setInterval(()=>{
+  let minutes=Math.floor(totalSeconds/60);
+  let seconds=totalSeconds%60;
+  timerElement.innerText=
+  minutes+":"+(seconds<10?"0":"")+seconds;
+  if(totalSeconds<=10){
+    timerElement.classList.add("alert");
+  }
+  if(totalSeconds<=0){
+    clearInterval(countdown);
+  }
+  totalSeconds--;
+},1000);
+
+const imgs=[
+ "https://github.com/mrxsetup/anuragreddy-south/blob/main/anuragreddy.jpg?raw=true",
+ "https://github.com/mrxsetup/lucknowfixer/blob/main/assets/logo16.png?raw=true",
+ "https://github.com/mrxsetup/lucknowfixer/blob/main/assets/logo15.png?raw=true"
+];
+let i=0;
+const logo=document.getElementById("logo");
+setInterval(()=>{
+  i=(i+1)%imgs.length;
+  logo.style.opacity="0";
+  logo.style.transform="translateY(-20px) scale(.8)";
+  setTimeout(()=>{
+    logo.src=imgs[i];
+    logo.style.opacity="1";
+    logo.style.transform="translateY(-8px) scale(1)";
+  },300);
+},2000);
+</script>
+
+</body>
+</html>
